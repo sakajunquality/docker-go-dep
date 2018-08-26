@@ -1,4 +1,4 @@
-FROM golang:1.10-alpine
+FROM golang:1.10.3-alpine
 RUN apk add --no-cache ca-certificates  \
   && apk --update add pcre-dev openssl-dev \
   && apk add --virtual build-dependencies build-base curl git mercurial \

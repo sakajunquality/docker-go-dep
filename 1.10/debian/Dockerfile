@@ -1,4 +1,4 @@
-FROM golang:1.10-stretch
+FROM golang:1.10.3-stretch
 
 RUN curl -SLO https://github.com/golang/dep/releases/download/v0.4.1/dep-linux-amd64 \
   && mv dep-linux-amd64 /go/bin/dep \
